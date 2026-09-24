@@ -38,15 +38,6 @@ Optimal Solution:
 package com.basics;
 import java.util.LinkedList;
 public class Main {
-	public static boolean isLeader(int element, int ind, int [] arr){
-        for(int i=ind; i<arr.length; i++){
-            if(element < arr[i]){
-                return false;
-            }
-        }
-        return true;
-    }
-
     public static void main(String args []) {
         LinkedList<Integer> list = new LinkedList<Integer>();
         int [] ar = {36,36, 15, 4, 30, 5, 2};
